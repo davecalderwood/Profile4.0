@@ -1,0 +1,24 @@
+.main {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+
+    .top {
+        height: 500px;
+        border: 2px solid green;
+        display: flex;
+
+        .top-left {
+            width: 100%;
+            border: 2px solid red;
+        }
+        .top-right {
+            width: 100%;
+            border: 2px solid blue;
+        }
+    }
+
+    .bottom {
+        width: 100%;
+    }
+}
